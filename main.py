@@ -28,7 +28,7 @@ class MyApp(QWidget):
         self.timer.timeout.connect(self.timeout_img_load)
 
         self.lbl_img = QLabel()
-        self.lbl_img.setFixedSize(1390, 1390)
+        self.lbl_img.setFixedSize(1350, 1350)
         self.lbl_img.setAlignment(Qt.AlignCenter)
 
         self.pbar = QProgressBar(self)

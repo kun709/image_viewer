@@ -6,7 +6,7 @@ from multiprocessing import cpu_count
 from PyQt5.QtGui import QMovie
 
 CORE = cpu_count()
-SCALE = 1370
+SCALE = 1350
 
 
 def cv2qpix(cv_img_brg):
